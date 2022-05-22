@@ -1,0 +1,70 @@
+.container {
+   width: 100%;
+}
+
+table {
+   border-collapse: collapse;
+   margin: 0 auto;
+   width: 90%;
+}
+
+/*стилізація таблиці по-наркоманськи*/
+table th:nth-child(1) {
+   width: 10%;
+}
+
+table td:nth-child(1) {
+   width: 10%;
+}
+
+table th:nth-child(2) {
+   width: 40%;
+}
+
+table td:nth-child(2) {
+   width: 40%;
+}
+
+table th:nth-child(3) {
+   width: 20%;
+}
+
+table td:nth-child(3) {
+   width: 20%;
+}
+
+table th:nth-child(4) {
+   width: 10%;
+}
+
+table td:nth-child(4) {
+   width: 10%;
+}
+table th:nth-child(5) {
+   width: 20%;
+}
+
+table td:nth-child(5) {
+   width: 20%;
+}
+
+/*закінчення стилізації таблиці по-наркоманськи*/
+
+
+
+
+table th {
+   border: 1px solid black;
+   cursor: pointer;
+   border-bottom: none;
+}
+
+
+table td {
+   border: 1px solid black;
+}
+
+.intBlock {
+   text-align: center;
+   width: 90%;
+}

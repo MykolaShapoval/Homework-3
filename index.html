@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+   <link rel="stylesheet" href="/style.css">
+</head>
+
+<body id="body">
+
+   <div class="container">
+      <table>
+         <tr class="table__header">
+
+            <th class="btnIndex" onclick="sortByIndex(responseResult)">Index</th>
+            <th class="btnTxt" onclick="sortByName(responseResult)">Name</th>
+            <th class="btnRate" onclick="sortByRate(responseResult)">Rate</th>
+            <th class="btnCC" onclick="sortByAbbr(responseResult)">Abbr</th>
+            <th class="btnDate" onclick="sortByDate(responseResult)">Date</th>
+
+         </tr>
+      </table>
+
+      <div id="tableList" class="tableList"></div>
+
+      <div class="intBlock">
+
+         <button onclick="prevPage()" id="btn_prev">Prev</button>&nbsp;
+         <button onclick="nextPage()" id="btn_next">Next</button><br>
+         Page num: <span id="page"></span>
+      
+      </div>
+      
+   </div>
+
+   <script src="/script.js"></script>
+</body>
+
+</html>
